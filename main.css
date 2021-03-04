@@ -1,0 +1,218 @@
+/*styling the footer*/
+*{margin: 0px;
+}
+footer{height: 800px;
+    width: auto;
+    background-color: #010e28;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{width: 100%;
+height: 300px;}
+ 
+hr{color: #010e28;}
+th{color: rgb(245, 240, 240);
+font-size: 15px;
+}
+
+ul>li{list-style-type: none;
+    padding-left: 32%;
+    padding-bottom: 4%;
+    padding-top: 1px;
+text-decoration: none;
+color: rgb(119, 115, 115);
+font-size: 14px;
+}
+
+/*styling the body sections*/
+section.Sec1{
+    position: relative;
+ 
+    z-index: 2;
+    background: url(assets/bg-home.svg);
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+    
+}
+.h1-under{z-index: 1;
+position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+height: 80vh;
+width: 100%;
+background-image: url(assets/bg-home.svg);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.last-section{background-color: rgb(0, 17, 255);
+    margin-top: 200px;
+    height: 300px;
+    width: 100%;
+}
+
+/*buttons*/
+
+#signin{ background-color: white;
+color:   #006aff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.01rem;
+font-weight: 500;
+border-color:  #006aff;
+padding: 15px 16px 18px 14px;
+border-radius: 5px;
+width: 110px;
+    white-space: nowrap;
+    justify-content: center;
+    text-align: center;
+    }
+
+#signup{ background-color: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #006aff;
+    font-weight: 500;
+    border-color: white;
+    outline: none;
+    padding: 15px 16px 18px 14px;
+    border-radius: 5px;
+    width: 110px;
+    white-space: nowrap;
+    justify-content: center;
+    text-align: center;
+    }
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #010e28;
+}
+.longbtn{height: 60px;
+width:1000px;
+padding-left: 60px;
+padding-right: 60px;
+background-color: #010e28;
+color: white;
+margin-left: 25%;
+border-radius: 10px;
+box-shadow: none;
+margin-top: 3px;
+}
+.longbtn:hover{
+    background-color: rgb(26, 165, 26);
+    height: 70px;
+    border-radius: 10px;
+}
+#navbar{
+    padding-bottom: 40px;
+    position: static;
+    height: 40%;
+}
+
+.navitem{
+    padding-right: 3%;
+}
+.h1{
+    
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10%;
+    z-index: 2;
+    height: 30%;
+    display: block;
+    padding-left: 30%;
+}
+.icons{
+    padding-left: 100px;
+    height: 30%;
+}
+span#icon{
+    margin-top: 40%;
+    padding-top: 30%;
+    padding-left: 10%;
+    padding-bottom: 30%;
+    z-index: -2;
+}
+.first{
+    background-color: whitesmoke;
+height: 30vh;
+width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#lastsec{
+    position:absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    font-size: 30PX;
+}
+#create{
+    background-color: white;
+}
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 15%;
+    border: 1px solid rgb(194, 182, 182);
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 70%;
+    margin-left: 8%;
+}
+.static{ 
+   padding-top: 2%;
+    padding-left: 18px;
+    display: inline-block;
+    justify-content: space-between;
+    white-space: normal;
+    height: min-content;
+}
+.static>img{
+    padding-right: 20px;
+}
+#Statictext{
+    color: #031b4e;
+    font-size: 30px;
+    padding-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#deploy{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #5b6987;
+}
+#lnm>button{
+    background-color: #006aff;
+    color: #ffff;
+    padding: 30px 30px 28px ;
+    font: 1em sans-serif;
+    width: 220px;
+    height: 60px;
+}
+#lnm{
+    padding-top: 4%;
+    padding-left: 18px;
+}
+.fifth>H1{
+color: #031b4e;
+font-size: 36px;
+font-family: sans-serif;
+text-align: center;
+}
+.fifth>p{
+    font: 20px  #031b4e;
+    text-align: center;
+    font-family:sans-serif ;
+    color: #031b4e;
+}
+.rocker{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
